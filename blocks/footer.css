@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  margin: 0;
+  width: 104px;
+  height: 16px;
+  margin: 0 0 0 668px;
+}
+
+.footer__text {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+  height: 16px;
+  width: 104px;
+  color: rgba(33, 33, 33, 0.7);
+}
+
+@media screen and (max-width: 627px) {
+  .footer {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer__text {
+    font-size: 14px;
+    width: fit-content;
+  }
+}
