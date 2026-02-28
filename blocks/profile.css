@@ -22,6 +22,10 @@
   max-width: 420px;
   text-overflow: ellipsis;
   white-space: nowrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
   font-size: 32px;
   line-height: 1;
