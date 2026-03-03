@@ -16,4 +16,5 @@
 
 This project is deployed to github pages where you an veiw and overlook the finish design for this project.
 
-- Deployment Link:
+- Deployment Link: "https://jordanrogers1101-code.github.io/se_project_spots"
+- Loom Link:
