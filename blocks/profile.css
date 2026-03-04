@@ -31,7 +31,7 @@
   line-height: 1;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
-  font-style: Medium;
+  font-style: normal;
   letter-spacing: 0%;
 }
 
@@ -39,11 +39,13 @@
   margin: 0;
   max-width: 420px;
   text-overflow: ellipsis;
-  white-space: nowrap;
   overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
-  font-style: Medium;
+  font-style: normal;
   font-size: 16px;
   letter-spacing: 0%;
   line-height: 1;
@@ -103,10 +105,8 @@
 
 @media screen and (max-width: 627px) {
   .profile {
-    margin: 0 20px 0;
     flex-direction: column;
     max-width: 288px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -136,6 +136,5 @@
   .profile__add-button {
     margin: 0;
     align-self: center;
-    gap: 8px;
   }
 }

@@ -4,10 +4,7 @@
   align-items: center;
   text-align: center;
   padding: 60px 0;
-  margin: 0 auto;
-  max-width: 1280px;
   height: 16px;
-  margin: 0 668px 0 668px;
 }
 
 .footer__text {
@@ -15,20 +12,5 @@
   font-size: 16px;
   line-height: 100%;
   font-weight: 400;
-  width: 104px;
   color: rgba(33, 33, 33, 0.7);
-}
-
-@media screen and (max-width: 627px) {
-  .footer {
-    margin: 0;
-    padding: 20px 0;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .footer__text {
-    font-size: 14px;
-    width: fit-content;
-  }
 }
