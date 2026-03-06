@@ -55,7 +55,6 @@
 .profile__edit-button {
   margin-top: auto;
   width: 84px;
-  height: 52px;
   gap: 8px;
   display: flex;
   align-items: center;
@@ -136,5 +135,6 @@
   .profile__add-button {
     margin: 0;
     align-self: center;
+    width: 100%;
   }
 }
