@@ -76,6 +76,7 @@
 
 .profile__add-button {
   display: flex;
+  border: none;
   margin-left: auto;
   width: 149px;
   height: 52px;
@@ -112,6 +113,11 @@
     padding-top: 20px;
   }
 
+  .profile__column {
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
   .profile__avatar {
     margin: 0 0 12px;
     height: 80px;
@@ -121,14 +127,15 @@
   .profile__name {
     font-size: 20px;
     max-width: 288px;
+    margin-bottom: 6px;
   }
 
   .profile__description {
     max-width: 288px;
+    margin-bottom: 32px;
   }
 
   .profile__edit-button {
-    margin: 12px 0 0;
     align-self: center;
   }
 
